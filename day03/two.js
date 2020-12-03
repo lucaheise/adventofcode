@@ -2,7 +2,7 @@ const fs = require("fs");
 
 let filename = "input";
 let filecontent = fs.readFileSync(filename, "UTF-8");
-let fileArr = filecontent.split(/\r?\n/);
+let fileArr = filecontent.split('\n');
 
 let lineLength = fileArr[0].length;
 
